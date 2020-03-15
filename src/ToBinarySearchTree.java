@@ -1,14 +1,4 @@
 public class ToBinarySearchTree {
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
     public TreeNode sortedArrayToBST(int[] nums) {
         TreeNode treeNode = getTreeNode(nums, 0, nums.length - 1);
         return treeNode;
